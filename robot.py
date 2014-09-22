@@ -5,6 +5,7 @@ robotVar = robotSetup.variableInitalize()
 globVar = robotSetup.globalVar()
 functions = robotSetup.robotFunctions()
 #robotVar.rateOfPot.Start()
+#---this is a change
 
 class MyRobot(robotVar.SimpleRobot()):
         def Disabled(self):
